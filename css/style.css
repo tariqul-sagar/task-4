@@ -36,7 +36,8 @@
 	padding: 8px;
 }
 .part-1 p{
-	padding: 8px;
+	padding: 0 8px;
+	font-size: 18px;
 }
 .part-2{
 	width: 60%;
@@ -56,21 +57,25 @@
 }
 .wp{
 	float: left;
-}
-.part-3{
 	width: 33.33%;
 	height: 100%;
+}
+.part-3{	
 	background-color: #84d791;
 }
-.part-4{
-	width: 33.33%;
-	height: 100%;
+.part-4{	
 	background-color: #1abdbd;
 }
 .part-5{
-	width: 33.33%;
-	height: 100%;
 	background-color: #8e5b8f;
+}
+.wp h3{
+	font-size: 22px;
+	padding: 3px 8px;
+}
+.wp p{
+	font-size: 18px;
+	padding: 0 8px;
 }
 
 /*  Footer Section CSS  */
@@ -83,4 +88,15 @@
 	color: #ffffff;
 	border: 5px solid #b3a6a6;
 	text-align: center;
+}
+.f-link{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 75px;
+}
+.f-link a{
+	color: #ffffff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 2px solid #ffffff;
 }
