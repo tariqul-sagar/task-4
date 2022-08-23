@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*  Header Section CSS  */
+.header{
+	background-color: #121b2b;
+	height: 200px;
+	text-align: center;
+}
+.header h1{
+	font-size: 48px;
+	font-weight: 900;
+	color: #ffffff;
+	border: 5px solid #8f4c4c;
+	text-align: center;
+}
+
+/*  Container Section CSS  */
+.container{
+	font-size: 16px;
+	height: 400px;
+	overflow: hidden;
+	background-color: lightcyan;
+}
+.part{
+	float: left;
+}
+.part-1{
+	height: 400px;
+	width: 40%;
+}
+.part-1 h2{
+	font-size: 24px;
+	padding: 8px;
+}
+.part-1 p{
+	padding: 8px;
+}
+.part-2{
+	width: 60%;
+	float: right;
+}
+.img-box{
+	height: 400px;
+}
+.img-box img{
+	width: 100%;
+}
+
+/*  Wrapper Section CSS  */
+.wrapper{
+	height: 300px;
+	overflow: hidden;
+}
+.wp{
+	float: left;
+}
+.part-3{
+	width: 33.33%;
+	height: 100%;
+	background-color: #84d791;
+}
+.part-4{
+	width: 33.33%;
+	height: 100%;
+	background-color: #1abdbd;
+}
+.part-5{
+	width: 33.33%;
+	height: 100%;
+	background-color: #8e5b8f;
+}
+
+/*  Footer Section CSS  */
+.footer{
+	background-color: #080914;
+	height: 200px;
+}
+.footer h1{
+	font-size: 48px;
+	color: #ffffff;
+	border: 5px solid #b3a6a6;
+	text-align: center;
+}
