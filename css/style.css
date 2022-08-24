@@ -73,7 +73,7 @@
 }
 .wp h3{
 	font-size: 22px;
-	padding: 3px 8px;
+	padding: 8px;
 }
 .wp p{
 	font-size: 18px;
@@ -88,7 +88,7 @@
 .footer h1{
 	font-size: 48px;
 	color: #ffffff;
-	border: 5px solid #b3a6a6;
+	border: 5px solid #d36363;
 	text-align: center;
 }
 .f-link{
@@ -105,3 +105,60 @@
 
 
 /*  W3School File CSS  */
+.header-1{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;	
+}
+
+/*  Table CSS  */
+table{
+	width: 100%;
+	border: none;
+}
+thead{
+	width: 100%;
+}
+th{
+	font-size: 22px;
+	width: 50%;
+	padding: 8px 0;
+	color: #ffffff;
+	background-color: #2ad12a;
+}
+td h3{
+	font-size: 20px;
+	width: 90%;
+	text-align: center;
+	padding: 5px 0;
+	margin: 0 auto;
+	color: #ffffff;
+	background-color: #000000;
+}
+td p{
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+/*  Accent color  */
+label{
+	font-size: 18px;
+	padding: 0 10px;
+}
+input[type=checkbox] {
+	margin: 0 10px;
+	accent-color: #2c94ed;
+}
+input[type=radio] {
+	margin: 0 10px;
+	accent-color: #2c94ed;
+}
+input[type=range] {
+	margin: 0 10px;
+	accent-color: rgb(0,0,255);	
+}
+progress{
+	accent-color: hsl(163,45%,41%);
+}
