@@ -122,27 +122,55 @@ thead{
 	width: 100%;
 }
 th{
-	font-size: 22px;
+	font-size: 28px;
 	width: 50%;
 	padding: 8px 0;
 	color: #ffffff;
 	background-color: #2ad12a;
 }
 td h3{
-	font-size: 20px;
+	font-size: 24px;
 	width: 90%;
 	text-align: center;
-	padding: 5px 0;
-	margin: 0 auto;
+	padding: 8px 0;
+	margin: 12px auto;
 	color: #ffffff;
 	background-color: #000000;
 }
 td p{
-	font-size: 18px;
+	font-size: 20px;
 	padding: 5px 10px;
 }
+/*  HTML Reference  */
+.anchor{
+	text-align: center;
+}
+.anchor a{
+	font-size: 20px;
+	text-decoration: none;
+}
+.abbr{
+	font-size: 20px;
+	padding: 0 10px;
+}
+address{
+	font-size: 20px;
+	padding: 0 10px;
+}
+aside h4{
+	font-size: 22px;
+	padding: 0 10px;
+}
+.audio{
+	text-align: center;
+}
+audio{
+	font-size: 20px;
+}
 
-/*  Accent color  */
+/*  
+ 	CSS Reference 
+Accent color  */
 label{
 	font-size: 18px;
 	padding: 0 10px;
@@ -161,4 +189,60 @@ input[type=range] {
 }
 progress{
 	accent-color: hsl(163,45%,41%);
+}
+
+/* Alignment CSS */
+.alg{
+	padding: 8px 0;
+	border: 2px solid #000000;
+}
+.left{
+	text-align: left;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+/*  Align Item  */
+.main{
+	width: 99.88%;
+	height: 300px;
+	border: 2px solid #000000;
+	display: flex;
+	text-align: center;
+}
+.main div{
+	font-size: 20px;
+	flex: 1;
+	border: 2px solid #000000;
+	display: flex;
+	align-items: center;
+}
+.one{
+	height: 50px;
+	background-color: lightblue;
+}
+.two{
+	height: 120px;
+	background-color: cyan;
+}
+.three{
+	height: 200px;
+	background-color: grey;
+}
+/*  Animation CSS  */
+.animation{
+	width: 220px;
+	height: 200px;
+	position: relative;
+	animation: move 8s infinite;
+}
+.animation img{
+	width: 100%;
+}
+@keyframes move{
+	from {left: 0%;}
+	to {left: 83.8%;}
 }
